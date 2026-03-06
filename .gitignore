@@ -1,0 +1,38 @@
+# Environment & Secrets
+.env
+credentials.json
+token.json
+
+# Session files
+*.session
+*_session/
+whatsapp_session/
+twitter_session/
+instagram_session/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Processed tracking files
+.processed_emails.json
+.processed_files.json
+.processed_plans.json
+.processed_whatsapp.json
+
+# Logs (keep structure, exclude verbose files)
+Logs/*.png
+Logs/*.log
+Logs/*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

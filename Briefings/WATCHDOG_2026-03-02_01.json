@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-03-02 01:52:40",
+  "watchdog_stats": {
+    "checks_performed": 285,
+    "processes_restarted": 3,
+    "degradation_events": 0,
+    "alerts_sent": 0
+  },
+  "restart_history": {
+    "gmail_watcher.py": [
+      "2026-03-02 00:51:29"
+    ],
+    "file_watcher.py": [
+      "2026-03-02 00:51:41"
+    ],
+    "orchestrator.py": [
+      "2026-03-02 00:51:53"
+    ]
+  },
+  "process_status": {
+    "gmail_watcher.py": "running",
+    "file_watcher.py": "running",
+    "orchestrator.py": "running",
+    "master_scheduler.py": "running",
+    "hitl_monitor.py": "running"
+  }
+}

@@ -1,0 +1,141 @@
+[2026-03-02 00:00:01] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 00:00:06] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 00:00:06] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 00:01:17] [OK] needs_action_check: No files
+[2026-03-02 00:03:18] [OK] needs_action_check: No files
+[2026-03-02 00:05:01] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 00:05:06] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 00:05:07] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 00:05:19] [OK] needs_action_check: No files
+[2026-03-02 00:07:20] [OK] needs_action_check: No files
+[2026-03-02 00:09:20] [OK] needs_action_check: No files
+[2026-03-02 00:10:01] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 00:10:07] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 00:10:07] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 00:11:20] [OK] needs_action_check: No files
+[2026-03-02 00:13:20] [OK] needs_action_check: No files
+[2026-03-02 00:15:02] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 00:15:07] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 00:15:07] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 00:15:21] [OK] needs_action_check: No files
+[2026-03-02 00:17:22] [OK] needs_action_check: No files
+[2026-03-02 00:19:22] [OK] needs_action_check: No files
+[2026-03-02 00:20:02] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 00:20:08] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 00:20:08] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 00:21:23] [OK] needs_action_check: No files
+[2026-03-02 00:23:23] [OK] needs_action_check: No files
+[2026-03-02 00:24:53] [ERROR] emails_error: Import error: cannot import name 'check_new_emails' from 'gmail_watcher' (F:\AI_Employee_Vault\gmail_watcher.py)
+[2026-03-02 00:24:53] [ERROR] emails_error: 'charmap' codec can't encode character '\u2713' in position 22: character maps to <undefined>
+[2026-03-02 00:25:04] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 00:25:08] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 00:25:08] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 00:25:24] [OK] needs_action_check: No files
+[2026-03-02 00:27:25] [OK] needs_action_check: No files
+[2026-03-02 00:29:25] [OK] needs_action_check: No files
+[2026-03-02 00:30:04] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 00:30:08] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 00:30:08] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 00:31:25] [OK] needs_action_check: No files
+[2026-03-02 00:33:26] [OK] needs_action_check: No files
+[2026-03-02 00:35:05] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 00:35:09] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 00:35:09] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 00:35:26] [OK] needs_action_check: No files
+[2026-03-02 00:37:27] [OK] needs_action_check: No files
+[2026-03-02 00:39:27] [OK] needs_action_check: No files
+[2026-03-02 00:40:05] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 00:40:09] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 00:40:09] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 00:41:28] [OK] needs_action_check: No files
+[2026-03-02 00:43:29] [OK] needs_action_check: No files
+[2026-03-02 00:45:06] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 00:45:10] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 00:45:10] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 00:45:29] [OK] needs_action_check: No files
+[2026-03-02 00:47:30] [OK] needs_action_check: No files
+[2026-03-02 00:49:31] [OK] needs_action_check: No files
+[2026-03-02 00:50:06] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 00:50:10] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 00:50:10] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 00:51:32] [OK] needs_action_check: No files
+[2026-03-02 00:53:33] [OK] needs_action_check: No files
+[2026-03-02 00:55:06] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 00:55:10] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 00:55:10] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 00:55:33] [OK] needs_action_check: No files
+[2026-03-02 00:57:34] [OK] needs_action_check: No files
+[2026-03-02 00:59:34] [OK] needs_action_check: No files
+[2026-03-02 01:00:07] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 01:00:11] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 01:00:13] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 01:01:34] [OK] needs_action_check: No files
+[2026-03-02 01:03:35] [OK] needs_action_check: No files
+[2026-03-02 01:05:07] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 01:05:13] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 01:05:13] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 01:05:35] [OK] needs_action_check: Found 1 files
+[2026-03-02 01:05:35] [ERROR] needs_action_error: 'charmap' codec can't encode character '\u2717' in position 22: character maps to <undefined>
+[2026-03-02 01:07:35] [OK] needs_action_check: No files
+[2026-03-02 01:09:36] [OK] needs_action_check: No files
+[2026-03-02 01:10:08] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 01:10:13] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 01:10:14] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 01:11:37] [OK] needs_action_check: No files
+[2026-03-02 01:13:37] [OK] needs_action_check: No files
+[2026-03-02 01:15:09] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 01:15:14] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 01:15:14] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 01:15:37] [OK] needs_action_check: No files
+[2026-03-02 01:17:38] [OK] needs_action_check: No files
+[2026-03-02 01:19:39] [OK] needs_action_check: No files
+[2026-03-02 01:20:10] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 01:20:15] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 01:20:15] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 01:21:39] [OK] needs_action_check: No files
+[2026-03-02 01:23:40] [OK] needs_action_check: No files
+[2026-03-02 01:24:53] [ERROR] emails_error: Import error: cannot import name 'check_new_emails' from 'gmail_watcher' (F:\AI_Employee_Vault\gmail_watcher.py)
+[2026-03-02 01:24:54] [ERROR] emails_error: 'charmap' codec can't encode character '\u2713' in position 22: character maps to <undefined>
+[2026-03-02 01:25:10] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 01:25:15] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 01:25:15] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 01:25:41] [OK] needs_action_check: No files
+[2026-03-02 01:27:42] [OK] needs_action_check: No files
+[2026-03-02 01:29:43] [OK] needs_action_check: No files
+[2026-03-02 01:30:11] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 01:30:16] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 01:30:16] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 01:31:44] [OK] needs_action_check: No files
+[2026-03-02 01:33:45] [OK] needs_action_check: No files
+[2026-03-02 01:35:11] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 01:35:17] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 01:35:17] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 01:35:46] [OK] needs_action_check: No files
+[2026-03-02 01:37:47] [OK] needs_action_check: No files
+[2026-03-02 01:39:47] [OK] needs_action_check: No files
+[2026-03-02 01:40:11] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 01:40:18] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 01:40:18] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 01:41:48] [OK] needs_action_check: No files
+[2026-03-02 01:43:49] [OK] needs_action_check: No files
+[2026-03-02 01:45:12] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 01:45:18] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 01:45:18] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 01:45:50] [OK] needs_action_check: No files
+[2026-03-02 01:47:51] [OK] needs_action_check: No files
+[2026-03-02 01:49:52] [OK] needs_action_check: No files
+[2026-03-02 01:50:12] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 01:50:19] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 01:50:19] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 01:51:52] [OK] needs_action_check: No files
+[2026-03-02 01:53:53] [OK] needs_action_check: No files
+[2026-03-02 01:55:13] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 01:55:19] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 01:55:19] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 01:55:53] [OK] needs_action_check: No files
+[2026-03-02 01:57:54] [OK] needs_action_check: No files
+[2026-03-02 01:59:55] [OK] needs_action_check: No files
+[2026-03-02 02:00:14] [ERROR] plans_error: Import error: cannot import name 'generate_plans' from 'plan_generator' (F:\AI_Employee_Vault\plan_generator.py)
+[2026-03-02 02:00:19] [OK] approvals_check: Pending: 2, Approved: 0
+[2026-03-02 02:00:20] [OK] approvals_processed: HITL monitor completed
+[2026-03-02 02:01:55] [OK] needs_action_check: No files

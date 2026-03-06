@@ -1,0 +1,47 @@
+[2026-03-02 01:07:59] [ERROR] connection_error: Failed to connect
+[2026-03-02 01:08:30] [ERROR] connection_error: Failed to connect
+[2026-03-02 01:16:47] [ERROR] qr_not_found: QR code not found
+[2026-03-02 01:23:27] [ERROR] qr_not_found: QR code not found
+[2026-03-02 22:47:07] [ERROR] qr_not_found: QR code not found
+[2026-03-02 22:50:23] [ERROR] qr_timeout: QR scan timeout after 60s
+[2026-03-02 22:54:09] [ERROR] qr_not_found: QR code not found
+[2026-03-02 22:57:27] [ERROR] qr_timeout: QR scan timeout after 60s
+[2026-03-02 23:01:15] [ERROR] qr_timeout: QR scan timeout after 60s
+[2026-03-02 23:04:27] [ERROR] qr_not_found: QR code not found
+[2026-03-02 23:07:55] [ERROR] qr_timeout: QR scan timeout after 60s
+[2026-03-02 23:10:28] [ERROR] qr_timeout: QR scan timeout after 60s
+[2026-03-02 23:12:54] [ERROR] qr_timeout: QR scan timeout after 60s
+[2026-03-02 23:15:39] [ERROR] qr_not_found: QR code not found
+[2026-03-02 23:17:37] [ERROR] qr_not_found: QR code not found
+[2026-03-02 23:18:53] [ERROR] connection_error: Failed to load page: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://web.whatsapp.com/", waiting until "domcontentloaded"
+
+[2026-03-02 23:19:33] [ERROR] connection_error: Failed to load page: Page.goto: net::ERR_TIMED_OUT at https://web.whatsapp.com/
+Call log:
+  - navigating to "https://web.whatsapp.com/", waiting until "domcontentloaded"
+
+[2026-03-02 23:21:56] [ERROR] qr_not_found: QR code not found
+[2026-03-02 23:24:11] [ERROR] qr_not_found: QR code not found
+[2026-03-02 23:25:18] [ERROR] connection_error: Failed to load page: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://web.whatsapp.com/
+Call log:
+  - navigating to "https://web.whatsapp.com/", waiting until "domcontentloaded"
+
+[2026-03-02 23:25:35] [ERROR] connection_error: Failed to load page: Page.goto: net::ERR_NETWORK_CHANGED at https://web.whatsapp.com/
+Call log:
+  - navigating to "https://web.whatsapp.com/", waiting until "domcontentloaded"
+
+[2026-03-02 23:26:18] [ERROR] connection_error: Failed to load page: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://web.whatsapp.com/
+Call log:
+  - navigating to "https://web.whatsapp.com/", waiting until "domcontentloaded"
+
+[2026-03-02 23:29:01] [ERROR] qr_timeout: QR scan timeout after 60s
+[2026-03-02 23:31:29] [ERROR] qr_timeout: QR scan timeout after 60s
+[2026-03-02 23:33:48] [ERROR] qr_timeout: QR scan timeout after 60s
+[2026-03-02 23:36:37] [ERROR] qr_timeout: QR scan timeout after 60s
+[2026-03-02 23:42:37] [ERROR] qr_timeout: QR scan timeout after 60s
+[2026-03-02 23:44:36] [ERROR] connection_error: Failed to load page: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://web.whatsapp.com/", waiting until "domcontentloaded"
+
+[2026-03-02 23:48:40] [ERROR] qr_timeout: QR scan timeout after 60s

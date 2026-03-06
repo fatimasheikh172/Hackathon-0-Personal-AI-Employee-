@@ -1,0 +1,1 @@
+[2026-03-01 16:20:18] [ERROR] connection_error: Failed to connect

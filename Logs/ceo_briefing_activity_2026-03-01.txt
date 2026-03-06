@@ -1,0 +1,3 @@
+[2026-03-01 16:50:28] [OK] goals_parsed: Loaded 2 projects
+[2026-03-01 16:50:28] [OK] transactions_parsed: Income: $4500.00, Expenses: $330.00
+[2026-03-01 16:50:28] [OK] briefing_generated: Created CEO_BRIEFING_2026-03-01.md - Revenue: $4500.00, Profit: $4170.00

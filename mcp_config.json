@@ -1,0 +1,21 @@
+{
+  "servers": [
+    {
+      "name": "email",
+      "script": "F:\\AI_Employee_Vault\\email_mcp_server.py",
+      "description": "Gmail email operations with HITL approval",
+      "capabilities": ["draft_email", "send_email", "search_emails", "get_email_content", "reply_to_email"]
+    },
+    {
+      "name": "odoo",
+      "script": "F:\\AI_Employee_Vault\\odoo_mcp_server.py",
+      "description": "Odoo ERP integration with HITL approval for financial operations",
+      "capabilities": ["authenticate", "create_invoice", "get_invoices", "create_customer", "get_financial_summary", "create_expense"]
+    },
+    {
+      "name": "filesystem",
+      "description": "Read and write vault files",
+      "capabilities": ["read_file", "write_file", "list_files", "move_file"]
+    }
+  ]
+}
