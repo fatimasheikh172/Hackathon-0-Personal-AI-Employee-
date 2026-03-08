@@ -1,5 +1,20 @@
+# Core dependencies
+python-dotenv
+
+# Web server (Platinum Tier Cloud)
+flask
+requests
+
+# GitHub integration (Platinum Tier Cloud)
+PyGithub
+
+# Google APIs (Gmail, etc.)
 google-auth
 google-auth-oauthlib
 google-api-python-client
+
+# File watching
 watchdog
-python-dotenv
+
+# AI integration
+anthropic
