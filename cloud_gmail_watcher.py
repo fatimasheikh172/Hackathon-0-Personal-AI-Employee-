@@ -600,17 +600,22 @@ class CloudGmailWatcher:
         self.needs_action_folder = "Needs_Action"
     
     def initialize(self) -> bool:
-        """Initialize GitHub and Gmail clients"""
+        """
+        Initialize GitHub and Gmail clients
+        
+        Returns:
+            True if GitHub initialized (Gmail is optional)
+        """
         # Validate configuration
         if not self.github_token:
             logger.error("GITHUB_TOKEN not set")
             return False
-        
+
         if not self.github_repo:
             logger.error("GITHUB_REPO not set")
             return False
-        
-        # Initialize GitHub client
+
+        # Initialize GitHub client (required)
         try:
             self.github = GitHubClient(
                 token=self.github_token,
@@ -621,26 +626,52 @@ class CloudGmailWatcher:
         except Exception as e:
             logger.error(f"Failed to initialize GitHub client: {e}")
             return False
-        
-        # Initialize Gmail service
+
+        # Initialize Gmail service (optional - will run without it)
         try:
+            # Check if credentials file exists
+            if not os.path.exists(CREDENTIALS_FILE):
+                logger.warning(f"credentials.json not found at {CREDENTIALS_FILE}")
+                logger.warning("Gmail Watcher will run in limited mode (no Gmail access)")
+                self.gmail = None
+                return True  # Still return True - GitHub is working
+            
             self.gmail = GmailService(
                 credentials_file=CREDENTIALS_FILE,
                 token_file=TOKEN_FILE
             )
-            
+
             if not self.gmail.authenticate():
-                logger.error("Gmail authentication failed")
-                return False
-            
-            # Load processed IDs
-            self.gmail.load_processed_ids(self.processed_file)
-            
+                logger.warning("Gmail authentication failed - running in limited mode")
+                logger.warning("Check that credentials.json is valid and OAuth is complete")
+                self.gmail = None
+                # Don't return False - we can still run without Gmail
+                # return True  # GitHub is working, just no Gmail access
+
+            else:
+                # Load processed IDs only if Gmail is authenticated
+                self.gmail.load_processed_ids(self.processed_file)
+                logger.info("Gmail service authenticated successfully")
+
         except Exception as e:
-            logger.error(f"Failed to initialize Gmail service: {e}")
-            return False
+            logger.warning(f"Gmail initialization error: {e}")
+            logger.warning("Running in limited mode (GitHub only)")
+            self.gmail = None
+
+        return True  # Always return True if GitHub is initialized
+    
+    def get_status(self) -> str:
+        """
+        Get current watcher status
         
-        return True
+        Returns:
+            Status string: running, no_credentials, no_token, error
+        """
+        if not self.github_token:
+            return "no_token"
+        if not self.gmail:
+            return "no_credentials"
+        return "running"
     
     def create_email_markdown(self, email: EmailData) -> str:
         """Create markdown content for email"""

@@ -61,6 +61,8 @@ app = Flask(__name__)
 # Background thread control
 background_threads = {}
 thread_stop_flags = {}
+thread_status = {}  # Track detailed status: running, stopped, no_credentials, error
+thread_errors = {}  # Track last error message
 
 
 def log_message(message: str, level: str = "INFO"):
